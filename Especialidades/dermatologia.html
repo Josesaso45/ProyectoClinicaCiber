@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Clinica,especialidades,piel">
+    <link rel="stylesheet" href="especialidades.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Dermatología</title>
+</head>
+<body>
+    <!--aqui va el header la navegacion y logo-->
+
+    <h1>DERMATOLOGÍA</h1>
+    <div id="contenedor">
+        <div id="col1">
+            <p id="intro">La dermatología es aquella especialidad médica que se enfoca en el diagnóstico y tratamiento de enfermedades y condiciones que afectan la piel, el cabello, las uñas.<br>
+            Nuestros dermatólogos están capacitados para tratar desde enfermedades de la piel comunes como el acné, la psoriasis y el eczema, hasta afecciones más graves como el cáncer de piel.
+            </p><br>
+            <a><button id="btn_cita" type="button">RESERVAR CITA</button></a>
+        </div>
+        
+        <img id="img_especialidad" src="img/dermatologia.png" alt="dermatologia">
+    </div>
+    
+    <hr>
+    
+    <div id="info">
+        <div id="parte1">
+            <h2 id="subtit">¿Cuando acudir a un <strong id="textred">DERMATÓLOGO</strong>?</h2>
+            <p  id="infopart1">Recuerda que la prevención y la detección temprana son clave para mantener una piel saludable, por lo que es importante programar visitas regulares con un dermatólogo, especialmente si tienes preocupaciones específicas sobre tu piel o si tienes antecedentes familiares de enfermedades cutáneas.</p>
+        </div>
+        <div id="parte2">
+            <h3><img src="img/check.png" width="15px"> Problemas de piel persistentes.</h3>
+            <h3><img src="img/check.png" width="15px"> Cambio en lunares o manchas en la piel.</h3>
+            <h3><img src="img/check.png" width="15px"> Problemas de cabello y uñas.</h3>
+            <h3><img src="img/check.png" width="15px"> Tratamiento de problemas estéticos.</h3>
+        </div>
+    </div>
+    <!--aqui termina la informacion corta sobre que es, de aui empieza la imagen del doctor y un text breve-->
+    <div id="contenedor_perfil">
+        <div id="perfil">
+            <img id="img_perfil" src="img/doc dermatologia.png">
+            <h4 id="namedoc"><b>Dra. Dina Boluarte Diaz</b></h4>
+        </div>
+        <div id="infoperfil">
+            <h5 id="h5perfil">Contamos con <strong>expertos</strong> para el cuidado de <strong>TU</strong> salud</h5>
+            <p>
+                En la Clínica MonteCarlos nos preocupamos por la <b>salud de tu piel</b> y ofrecemos una amplia gama de servicios dermatológicos, desde el tratamiento del acné hasta la detección y tratamiento del cáncer de piel. Nuestros profesionales están equipados con tecnología de vanguardia para garantizar diagnósticos precisos y tratamientos efectivos.
+            </p>
+            <p>Conoce a la <b>Dra. Dina Boluarte Diaz</b>, una dermatóloga con más de 8 años de experiencia, graduada de la Universidad Sideral Carrión. Está disponible para ofrecerte orientación y asesoramiento sobre cómo cuidar tu piel.</p>
+        </div>
+    </div>
+    
+<!--Pie de página-->
+    <!--columna 1-->
+    <div id="piepag">
+        <div id="pie1">
+            <h4 id="pietitulo">Clinica<br>Monte Carlos</h4>
+            <p id="piep">En Clínica Monte Carlos, reconocemos la vital importancia de la confianza y la tranquilidad en la interacción entre médico y paciente. Por ello, dedicamos nuestros esfuerzos a instaurar un entorno profesional, amable y confortable, asegurando que cada paciente se sienta atendido y protegido en todo momento.</p>
+            <div id="pielink">
+                <p>Derechos y deberes</p>
+                <p>Políticas de Privacidad</p>
+                <p>Libro de Reclamaciones</p>
+            </div>
+        </div>
+        <!--columna 2-->
+        <div id="pie2">
+            <div>
+                <h5 id="pie2titulo">Contáctanos</h5> 
+                <p><img src="img/logo ubicacion.png" width="10px" alt="#"> Av. Virrey Conde de Lemos 755</p>
+                <p><img src="img/logo telefono.png" width="10px" alt="#"> (01) 619 051</p>
+                <p><img src="img/logo whatsap.png" width="14px" alt="#"> 926 966 161</p>
+                <p><img src="img/logo email.png" width="10px" alt="#"> gabiporrasore@gmail.com</p>
+            </div>
+            <div id="pie2bajo">
+                <p>Síguenos en :</p>
+                <a href="#"><img src="img/facebook.png" width="30px"></a>
+                <a href="#"><img src="img/instagram.png" width="30px"></a>
+                <a href="#"><img src="img/tiktok.png" width="30px"></a>
+                <a href="#"><img src="img/linkedin.png" width="30px"></a>
+                <a href="#"><img src="img/youtube.png" width="30px" ></a>
+            </div>
+        </div>
+        <!--columna 3-->
+        <div id="pie3">
+            <h4>Reserva tu cita</h4>
+            <form id="inpform">
+                <input type="text" id="name" required placeholder="Nombre"><br>
+                <input type="text" id="lastname" required placeholder="Apellido"><br>
+                <input type="number" id="number" required placeholder="Celular"><br>
+                <input type="email" id="mail" required placeholder="Email"><br>
+                <input type="number" id="dni" required placeholder="DNI"><br>
+                <label>Seleccione su Especialidad:</label><br>
+                <select required>
+                    <option>Cardiología</option>
+                    <option>Neumología</option>
+                    <option>Traumatología</option>
+                    <option>Oftalmología</option>
+                    <option>Medicina Interna</option>
+                    <option>Dermatología</option>
+                    <option>Odontología</option>
+                    <option>Otorrinolaringología</option>
+                    <option>Pediatría</option>
+                    <option>Neurologia</option>
+                    <option>Cardiología</option>
+                </select><br>
+                <button>ENVIAR</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

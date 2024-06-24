@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Clinica,especialidades,dientes,sonrisa,brackets,ortodoncia">
+    <link rel="stylesheet" href="especialidades.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Odontología</title>
+</head>
+<body>
+    <!--aqui va el header la navegacion y logo-->
+
+    <h1>ODONTOLOGÍA</h1>
+    <div id="contenedor">
+        <div id="col1">
+            <p id="intro" style="margin-left: 320px;">La odontología, es una rama médica dedicada a prevenir, diagnosticar y tratar enfermedades que afectan diversas partes de la mandíbula, como los dientes, encías y periodonto. Además de tratar problemas existentes, los odontólogos también promueven la salud bucal y enseñan hábitos de higiene para prevenir futuras complicaciones, contribuyendo así al bienestar general de los pacientes.</p><br>
+            <a><button id="btn_cita" type="button">RESERVAR CITA</button></a>
+        </div>
+        
+        <img id="img_especialidad" src="img/ODONTOLOGIA.png" alt="odontologia" style="margin-right: 320px;">
+    </div>
+    
+    <hr>
+    
+    <div id="info">
+        <div id="parte1">
+            <h2 id="subtit">¿Cuando acudir a un <strong id="textred">ODONTÓLOGO</strong>?</h2>
+            <p  id="infopart1">Recuerda que la prevención y la detección temprana son fundamentales para mantener una salud bucal óptima, por lo que es importante programar visitas regulares con un odontólogo. Esto cobra especial importancia si tienes preocupaciones específicas sobre tus dientes, encías.</p>
+        </div>
+        <div id="parte2">
+            <h3><img src="img/check.png" width="15px"> Caries dental.</h3>
+            <h3><img src="img/check.png" width="15px"> Dolor en la dentadura.</h3>
+            <h3><img src="img/check.png" width="15px"> Sensibilidad dental.</h3>
+            <h3><img src="img/check.png" width="15px"> Cambios de color en los dientes.</h3>
+        </div>
+    </div>
+    <!--aqui termina la informacion corta sobre que es, de aui empieza la imagen del doctor y un text breve-->
+    <div id="contenedor_perfil">
+        <div id="perfil">
+            <img id="img_perfil" src="img/DOC ODONTOLOGO.png" style="width: 240px; height: 250px;">
+            <h4 id="namedoc"><b>Dr. Pedro Castillo Pinto</b></h4>
+        </div>
+        <div id="infoperfil">
+            <h5 id="h5perfil">Contamos con <strong>expertos</strong> para el cuidado de <strong>TU</strong> salud</h5>
+            <p>
+                En la Clínica Dental MonteCarlos nos enfocamos en tu salud bucal. Ofrecemos diversos servicios, desde tratamientos de caries hasta implantes dentales, con tecnología avanzada y un equipo altamente capacitado. Tu bienestar es nuestra prioridad, y nos esforzamos por brindarte la mejor atención para mantener tu sonrisa sana y brillante.
+            </p>
+            <p>Conoce al <b>Dr. Pedro Castillo Pinto</b>, un odontólogo con más de cinco años de experiencia, graduado de la Universidad Sideral Carrión. Está disponible para ofrecerte orientación y consejos sobre cómo mantener una salud bucal óptima y una <b>sonrisa</b> radiante.</p>
+        </div>
+    </div>
+    
+<!--Pie de página-->
+    <!--columna 1-->
+    <div id="piepag">
+        <div id="pie1">
+            <h4 id="pietitulo">Clinica<br>Monte Carlos</h4>
+            <p id="piep">En Clínica Monte Carlos, reconocemos la vital importancia de la confianza y la tranquilidad en la interacción entre médico y paciente. Por ello, dedicamos nuestros esfuerzos a instaurar un entorno profesional, amable y confortable, asegurando que cada paciente se sienta atendido y protegido en todo momento.</p>
+            <div id="pielink">
+                <p>Derechos y deberes</p>
+                <p>Políticas de Privacidad</p>
+                <p>Libro de Reclamaciones</p>
+            </div>
+        </div>
+        <!--columna 2-->
+        <div id="pie2">
+            <div>
+                <h5 id="pie2titulo">Contáctanos</h5> 
+                <p><img src="img/logo ubicacion.png" width="10px" alt="#"> Av. Virrey Conde de Lemos 755</p>
+                <p><img src="img/logo telefono.png" width="10px" alt="#"> (01) 619 051</p>
+                <p><img src="img/logo whatsap.png" width="14px" alt="#"> 926 966 161</p>
+                <p><img src="img/logo email.png" width="10px" alt="#"> gabiporrasore@gmail.com</p>
+            </div>
+            <div id="pie2bajo">
+                <p>Síguenos en :</p>
+                <a href="#"><img src="img/facebook.png" width="30px"></a>
+                <a href="#"><img src="img/instagram.png" width="30px"></a>
+                <a href="#"><img src="img/tiktok.png" width="30px"></a>
+                <a href="#"><img src="img/linkedin.png" width="30px"></a>
+                <a href="#"><img src="img/youtube.png" width="30px" ></a>
+            </div>
+        </div>
+        <!--columna 3-->
+        <div id="pie3">
+            <h4>Reserva tu cita</h4>
+            <form id="inpform">
+                <input type="text" id="name" required placeholder="Nombre"><br>
+                <input type="text" id="lastname" required placeholder="Apellido"><br>
+                <input type="number" id="number" required placeholder="Celular"><br>
+                <input type="email" id="mail" required placeholder="Email"><br>
+                <input type="number" id="dni" required placeholder="DNI"><br>
+                <label>Seleccione su Especialidad:</label><br>
+                <select required>
+                    <option>Cardiología</option>
+                    <option>Neumología</option>
+                    <option>Traumatología</option>
+                    <option>Oftalmología</option>
+                    <option>Medicina Interna</option>
+                    <option>Dermatología</option>
+                    <option>Odontología</option>
+                    <option>Otorrinolaringología</option>
+                    <option>Pediatría</option>
+                    <option>Neurologia</option>
+                    <option>Cardiología</option>
+                </select><br>
+                <button>ENVIAR</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,207 @@
+body{
+    background-color: #F7F6F6;
+}
+h1{
+    color: #2E1572;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Source Sans 3", sans-serif;
+}
+#contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#intro{
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 390px;
+    margin-right: 100px;
+}
+#btn_cita{
+    color: black;
+    margin-left: 490px;
+    height: 50px;
+    width: 170px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+}
+#img_especialidad{
+    height: 200px;
+    margin-right: 360px;
+    border-radius: 50px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.6);
+}
+#info{
+    display: flex;
+    margin-top: 20px;
+    background-color: #EBD6D9;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    height: 190px;
+    justify-content: center;
+}
+#parte1{
+    margin-left: 100px;
+    text-align: justify;
+    padding: 10px;
+    margin-right: 200px;
+}
+#textred{
+    color: #B70F0A;
+}
+#subtit{
+    font-size: 20px;
+}
+#infopart1{
+    font-size: 14px;
+    margin-top: 20px;
+    width: 400px;
+}
+#parte2{
+    text-align: left;
+    line-height: 1.3;
+    font-size: 14px;
+    color: black;
+    margin-right: 100px;
+    padding: 10px;
+}
+#contenedor_perfil {
+    font-family: "Helvetica", Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    position: relative;
+}
+
+#perfil {
+    margin-top: 20px;
+    position: relative;
+    margin-right: 50px;
+}
+
+#img_perfil {
+    width: 200px;
+    height: 300px;
+    border-radius: 23px;
+}
+
+#namedoc {
+    width: 225px;
+    height: 42px;
+    padding: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px solid transparent;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#infoperfil {
+    text-align: left;
+}
+
+#h5perfil {
+    width: 383px;
+    height: 22px;
+    color: #2E1572;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#infoperfil p {
+    width: 400px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: justify;
+}
+/*pie de pagina*/
+#piepag{
+    background-color: #2E1572;
+    color: white;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#pietitulo{
+	font-family: "Source Sans 3", sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 1.28;
+	text-align: center;
+    margin-bottom: 1px;
+}
+#piep{
+    width: 300px;
+    height: 99px;
+    color: #FFFFFF;
+    font-family: "Helvetica", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+#pielink{
+    line-height: 1.5;
+}
+#pie2{
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+#pie2titulo{
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+#pie2 p{
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: left;
+}
+#pie2bajo{
+    margin-top: 50px;
+}
+#pie3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pie3 h4{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+#inpform input{
+    width: 180px;
+    height: 20px;
+    border-radius: 14px;
+    border-style: solid;
+    padding: 4px 8px 4px 8px;
+    border-color: #232323;
+    border-width: 1px;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+#inpform select{
+    margin-bottom: 5px;
+    text-align: left;
+    margin-right: 50px;
+}

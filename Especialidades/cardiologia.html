@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Clinica,especialidades,corazon,salud">
+    <link rel="stylesheet" href="especialidades.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Cardiología</title>
+</head>
+<body>
+    <!--aqui va el header la navegacion y logo-->
+
+    <h1>CARDIOLOGÍA</h1>
+    <div id="contenedor">
+        <div id="col1">
+            <p id="intro" style="margin-left: 320px;">Es el estudio, diagnóstico y tratamiento de las enfermedades relacionadas con el corazón y los vasos sanguíneos. Los cardiólogos son médicos especializados en evaluar la salud cardiovascular, desde problemas comunes como la hipertensión arterial y las enfermedades coronarias hasta condiciones más complejas como las arritmias cardíacas y las enfermedades congénitas del corazón. Su objetivo es mantener la salud del corazón y prevenir enfermedades cardiovasculares para promover una vida larga y saludable.</p><br>
+            <button id="btn_cita" type="button">RESERVAR CITA</button>                
+        </div>
+        
+        <img id="img_especialidad" src="img/CARDIOLOGIA.jpg" alt="cardiologia" style="margin-right: 320px;">
+    </div>
+    
+    <hr>
+    
+    <div id="info">
+        <div id="parte1">
+            <h2 id="subtit">¿Cuando acudir a un <strong id="textred">CARDIÓLOGO</strong>?</h2>
+            <p  id="infopart1">Debes acudir a un cardiólogo si experimentas síntomas o tienes factores de riesgo relacionados con enfermedades del corazón y los vasos sanguíneos. Algunas razones comunes para consultar a un cardiólogo incluyen:</p>
+        </div>
+        <div id="parte2">
+            <h3><img src="img/check.png" width="15px"> Dolor en el pecho o palpitaciones.</h3>
+            <h3><img src="img/check.png" width="15px"> Antecedentes familiares y diabetes.</h3>
+            <h3><img src="img/check.png" width="15px"> Historial de enfermedad cardiaca.</h3>
+            <h3><img src="img/check.png" width="15px"> Colesterol alto.</h3>
+        </div>
+    </div>
+    <!--aqui termina la informacion corta sobre que es, de aui empieza la imagen del doctor y un text breve-->
+    <div id="contenedor_perfil">
+        <div id="perfil">
+            <img id="img_perfil" src="img/DOCTORA CARDIOLOGA.jpg" style="width: 225px; height: 270px;">
+            <h4 id="namedoc"><b>Dra. Carmen Llana</b></h4>
+        </div>
+        <div id="infoperfil">
+            <h5 id="h5perfil">Contamos con <strong>expertos</strong> para el cuidado de <strong>TU</strong> salud</h5>
+            <p>En la Clínica MonteCarlos, entendemos la importancia de la salud del corazon y nos comprometemos a ofrecer atención especializada para mejorar tu bienestar. Nuestro equipo de cardiólogos está dedicado a proporcionar cuidados de calidad, utilizando tecnología de vanguardia y enfoques innovadores para abordar una variedad de condiciones que se presenten.</p>
+            <p>Conoce a la <b>Dra. Carmen Llana</b> cardiologa de profesión graduada de la Universidad Cayetano Heredia con mas de 10 años de experiencia, esta aqui para <b>ayudarte</b>   y <b>orientarte</b> sobre el cuidado de tu <b>corazón</b>.</p>
+        </div>
+    </div>
+    
+<!--Pie de página-->
+    <!--columna 1-->
+    <div id="piepag">
+        <div id="pie1">
+            <h4 id="pietitulo">Clinica<br>Monte Carlos</h4>
+            <p id="piep">En Clínica Monte Carlos, reconocemos la vital importancia de la confianza y la tranquilidad en la interacción entre médico y paciente. Por ello, dedicamos nuestros esfuerzos a instaurar un entorno profesional, amable y confortable, asegurando que cada paciente se sienta atendido y protegido en todo momento.</p>
+            <div id="pielink">
+                <p>Derechos y deberes</p>
+                <p>Políticas de Privacidad</p>
+                <p>Libro de Reclamaciones</p>
+            </div>
+        </div>
+        <!--columna 2-->
+        <div id="pie2">
+            <div>
+                <h5 id="pie2titulo">Contáctanos</h5> 
+                <p><img src="img/logo ubicacion.png" width="10px" alt="#"> Av. Virrey Conde de Lemos 755</p>
+                <p><img src="img/logo telefono.png" width="10px" alt="#"> (01) 619 051</p>
+                <p><img src="img/logo whatsap.png" width="14px" alt="#"> 926 966 161</p>
+                <p><img src="img/logo email.png" width="10px" alt="#"> gabiporrasore@gmail.com</p>
+            </div>
+            <div id="pie2bajo">
+                <p>Síguenos en :</p>
+                <a href="#"><img src="img/facebook.png" width="30px"></a>
+                <a href="#"><img src="img/instagram.png" width="30px"></a>
+                <a href="#"><img src="img/tiktok.png" width="30px"></a>
+                <a href="#"><img src="img/linkedin.png" width="30px"></a>
+                <a href="#"><img src="img/youtube.png" width="30px" ></a>
+            </div>
+        </div>
+        <!--columna 3-->
+        <div id="pie3">
+            <h4>Reserva tu cita</h4>
+            <form id="inpform">
+                <input type="text" id="name" required placeholder="Nombre"><br>
+                <input type="text" id="lastname" required placeholder="Apellido"><br>
+                <input type="number" id="number" required placeholder="Celular"><br>
+                <input type="email" id="mail" required placeholder="Email"><br>
+                <input type="number" id="dni" required placeholder="DNI"><br>
+                <label>Seleccione su Especialidad:</label><br>
+                <select required>
+                    <option>Cardiología</option>
+                    <option>Neumología</option>
+                    <option>Traumatología</option>
+                    <option>Oftalmología</option>
+                    <option>Medicina Interna</option>
+                    <option>Dermatología</option>
+                    <option>Odontología</option>
+                    <option>Otorrinolaringología</option>
+                    <option>Pediatría</option>
+                    <option>Neurologia</option>
+                    <option>Cardiología</option>
+                </select><br>
+                <button>ENVIAR</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

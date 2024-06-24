@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Clinica, salud,especialidades,Otorrinolaringología,oido">
+    <link rel="stylesheet" href="especialidades.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Otorrinolaringología</title>
+</head>
+<body>
+    <!--aqui va el header la navegacion y logo-->
+
+    <h1>OTORRINOLARINGOLOGÍA</h1>
+    <div id="contenedor">
+        <div id="col1">
+            <p id="intro">El otorrinolaringólogo diagnostica y trata trastornos relacionados con el oído, la nariz, la garganta, la cabeza y el cuello. Abarca problemas auditivos y de equilibrio hasta enfermedades de la garganta, sinusitis, alergias nasales, trastornos de la voz, amigdalitis y cánceres de cabeza y cuello. </p><br>
+            <a><button id="btn_cita" type="button">RESERVAR CITA</button></a>
+        </div>
+        
+        <img id="img_especialidad" src="img/OTORRINO.png" alt="Otorrinolaringología">
+    </div>
+    
+    <hr>
+    
+    <div id="info">
+        <div id="parte1">
+            <h2 id="subtit">¿Cuando acudir a un <strong id="textred">OTORRINOLARINGÓLOGO</strong>?</h2>
+            <p  id="infopart1">Es crucial someterse a evaluaciones regulares, especialmente si existen antecedentes familiares de trastornos neurológicos. Además, estas evaluaciones pueden proporcionar orientación sobre medidas preventivas específicas para promover la salud neurológica.</p>
+        </div>
+        <div id="parte2">
+            <h3><img src="img/check.png" width="15px"> Protección contra el ruido excesivo.</h3>
+            <h3><img src="img/check.png" width="15px"> Cambios en la voz.</h3>
+            <h3><img src="img/check.png" width="15px"> Alergias nasales persistentes.</h3>
+            <h3><img src="img/check.png" width="15px"> Molestias y dolores en el oido</h3>
+        </div>
+    </div>
+    <!--aqui termina la informacion corta sobre que es, de aui empieza la imagen del doctor y un text breve-->
+    <div id="contenedor_perfil">
+        <div id="perfil">
+            <img id="img_perfil" src="img/doctor otorrino.png">
+            <h4 id="namedoc"><b>Dr. Martín Pérez Sánchez</b></h4>
+        </div>
+        <div id="infoperfil">
+            <h5 id="h5perfil">Contamos con <strong>expertos</strong> para el cuidado de <strong>TU</strong> salud</h5>
+            <p>El <b>Dr. Martín Pérez Sánchez</b>, quien es miembro de nuestro equipo médico. Graduado de la Facultad de Medicina en España y especializado en Otorrinolaringología, el Dr. Pérez Sánchez trae consigo una sólida formación académica y una <b>amplia experiencia</b>en el diagnóstico y tratamiento de trastornos del oído, la nariz y la garganta. Su dedicación a la excelencia clínica y su enfoque centrado en el paciente son valores que reflejan los <b>estándares de calidad</b>de nuestra clínica. Estamos seguros de que su experiencia contribuirá de manera significativa al bienestar de nuestros pacientes.</p>
+        </div>
+    </div>
+    
+<!--Pie de página-->
+    <!--columna 1-->
+    <div id="piepag">
+        <div id="pie1">
+            <h4 id="pietitulo">Clinica<br>Monte Carlos</h4>
+            <p id="piep">En Clínica Monte Carlos, reconocemos la vital importancia de la confianza y la tranquilidad en la interacción entre médico y paciente. Por ello, dedicamos nuestros esfuerzos a instaurar un entorno profesional, amable y confortable, asegurando que cada paciente se sienta atendido y protegido en todo momento.</p>
+            <div id="pielink">
+                <p>Derechos y deberes</p>
+                <p>Políticas de Privacidad</p>
+                <p>Libro de Reclamaciones</p>
+            </div>
+        </div>
+        <!--columna 2-->
+        <div id="pie2">
+            <div>
+                <h5 id="pie2titulo">Contáctanos</h5> 
+                <p><img src="img/logo ubicacion.png" width="10px" alt="#"> Av. Virrey Conde de Lemos 755</p>
+                <p><img src="img/logo telefono.png" width="10px" alt="#"> (01) 619 051</p>
+                <p><img src="img/logo whatsap.png" width="14px" alt="#"> 926 966 161</p>
+                <p><img src="img/logo email.png" width="10px" alt="#"> gabiporrasore@gmail.com</p>
+            </div>
+            <div id="pie2bajo">
+                <p>Síguenos en :</p>
+                <a href="#"><img src="img/facebook.png" width="30px"></a>
+                <a href="#"><img src="img/instagram.png" width="30px"></a>
+                <a href="#"><img src="img/tiktok.png" width="30px"></a>
+                <a href="#"><img src="img/linkedin.png" width="30px"></a>
+                <a href="#"><img src="img/youtube.png" width="30px" ></a>
+            </div>
+        </div>
+        <!--columna 3-->
+        <div id="pie3">
+            <h4>Reserva tu cita</h4>
+            <form id="inpform">
+                <input type="text" id="name" required placeholder="Nombre"><br>
+                <input type="text" id="lastname" required placeholder="Apellido"><br>
+                <input type="number" id="number" required placeholder="Celular"><br>
+                <input type="email" id="mail" required placeholder="Email"><br>
+                <input type="number" id="dni" required placeholder="DNI"><br>
+                <label>Seleccione su Especialidad:</label><br>
+                <select required>
+                    <option>Cardiología</option>
+                    <option>Neumología</option>
+                    <option>Traumatología</option>
+                    <option>Oftalmología</option>
+                    <option>Medicina Interna</option>
+                    <option>Dermatología</option>
+                    <option>Odontología</option>
+                    <option>Otorrinolaringología</option>
+                    <option>Pediatría</option>
+                    <option>Neurologia</option>
+                    <option>Cardiología</option>
+                </select><br>
+                <button>ENVIAR</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

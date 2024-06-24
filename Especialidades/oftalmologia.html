@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Clinica,especialidades,Oftalmología,ojos,vista">
+    <link rel="stylesheet" href="especialidades.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Oftalmología</title>
+</head>
+<body>
+    <!--aqui va el header la navegacion y logo-->
+
+    <h1>OFTALMOLOGÍA</h1>
+    <div id="contenedor">
+        <div id="col1">
+            <p id="intro">La oftalmología se dedica al cuidado de los ojos y la visión. Los oftalmólogos diagnostican y tratan afecciones oculares como cataratas, glaucoma, degeneración macular y estrabismo. Realizan cirugías oculares, prescriben gafas y lentes de contacto, y brindan atención integral para la salud ocular.</p><br>
+            <a><button id="btn_cita" type="button">RESERVAR CITA</button></a>
+        </div>
+        
+        <img id="img_especialidad" src="img/oftalmologia.jpg" alt="oftalmologia">
+    </div>
+    
+    <hr>
+    
+    <div id="info">
+        <div id="parte1">
+            <h2 id="subtit">¿Cuando acudir a un <strong id="textred">OFTALMÓLOGO</strong>?</h2>
+            <p  id="infopart1">Puede que ya tengas algunas señales de que necesitas visitar a tu oftalmólogo y no te das cuenta de ello. Presta atención y asiste con el especialista a tiempo, de esta forma los tratamientos para solucionarlos serán más efectivos. aquí mencionamos algunas señales:</p>
+        </div>
+        <div id="parte2">
+            <h3><img src="img/check.png" width="15px"> Ardor o dolor en los ojos.</h3>
+            <h3><img src="img/check.png" width="15px"> Exposición a sustancias quimicas.</h3>
+            <h3><img src="img/check.png" width="15px"> Sensibilidad o inflamación ocular.</h3>
+            <h3><img src="img/check.png" width="15px"> Perdida de Vista.</h3>
+        </div>
+    </div>
+    <!--aqui termina la informacion corta sobre que es, de aui empieza la imagen del doctor y un text breve-->
+    <div id="contenedor_perfil">
+        <div id="perfil">
+            <img id="img_perfil" src="img/DOCTORA oftalmologia.jpg">
+            <h4 id="namedoc"><b>Dra. Helen Dextre Ruiz</b></h4>
+        </div>
+        <div id="infoperfil">
+            <h5 id="h5perfil">Contamos con <strong>expertos</strong> para el cuidado de <strong>TU</strong> salud</h5>
+            <p>
+                En la Clinica MonteCarlos contamos con profesionales para poder ayudarte.
+                Nos preocupamos por brindarte atención de calidad para que tengas  una mejor <b>salud visual</b>. Contamos con equipos de última tecnología orientados en la prevención oportuna de enfermedades oculares.
+            </p>
+            <p>Conoce a la Dra Helen Dextre Ruiz Oftalmóloga de profesión graduada de la Universidad Cayetano Heredia con mas de 10 años de experiencia, esta aqui para <b>ayudarte</b> y <b>orientarte</b> sobre el cuidado de tus ojos</p>
+        </div>
+    </div>
+    
+<!--Pie de página-->
+    <!--columna 1-->
+    <div id="piepag">
+        <div id="pie1">
+            <h4 id="pietitulo">Clinica<br>Monte Carlos</h4>
+            <p id="piep">En Clínica Monte Carlos, reconocemos la vital importancia de la confianza y la tranquilidad en la interacción entre médico y paciente. Por ello, dedicamos nuestros esfuerzos a instaurar un entorno profesional, amable y confortable, asegurando que cada paciente se sienta atendido y protegido en todo momento.</p>
+            <div id="pielink">
+                <p>Derechos y deberes</p>
+                <p>Políticas de Privacidad</p>
+                <p>Libro de Reclamaciones</p>
+            </div>
+        </div>
+        <!--columna 2-->
+        <div id="pie2">
+            <div>
+                <h5 id="pie2titulo">Contáctanos</h5> 
+                <p><img src="img/logo ubicacion.png" width="10px" alt="#"> Av. Virrey Conde de Lemos 755</p>
+                <p><img src="img/logo telefono.png" width="10px" alt="#"> (01) 619 051</p>
+                <p><img src="img/logo whatsap.png" width="14px" alt="#"> 926 966 161</p>
+                <p><img src="img/logo email.png" width="10px" alt="#"> gabiporrasore@gmail.com</p>
+            </div>
+            <div id="pie2bajo">
+                <p>Síguenos en :</p>
+                <a href="#"><img src="img/facebook.png" width="30px"></a>
+                <a href="#"><img src="img/instagram.png" width="30px"></a>
+                <a href="#"><img src="img/tiktok.png" width="30px"></a>
+                <a href="#"><img src="img/linkedin.png" width="30px"></a>
+                <a href="#"><img src="img/youtube.png" width="30px" ></a>
+            </div>
+        </div>
+        <!--columna 3-->
+        <div id="pie3">
+            <h4>Reserva tu cita</h4>
+            <form id="inpform">
+                <input type="text" id="name" required placeholder="Nombre"><br>
+                <input type="text" id="lastname" required placeholder="Apellido"><br>
+                <input type="number" id="number" required placeholder="Celular"><br>
+                <input type="email" id="mail" required placeholder="Email"><br>
+                <input type="number" id="dni" required placeholder="DNI"><br>
+                <label>Seleccione su Especialidad:</label><br>
+                <select required>
+                    <option>Cardiología</option>
+                    <option>Neumología</option>
+                    <option>Traumatología</option>
+                    <option>Oftalmología</option>
+                    <option>Medicina Interna</option>
+                    <option>Dermatología</option>
+                    <option>Odontología</option>
+                    <option>Otorrinolaringología</option>
+                    <option>Pediatría</option>
+                    <option>Neurologia</option>
+                    <option>Cardiología</option>
+                </select><br>
+                <button>ENVIAR</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
