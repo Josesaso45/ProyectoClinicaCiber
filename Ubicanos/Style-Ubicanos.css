@@ -75,16 +75,24 @@ nav ul li a {
     display: flex;
     justify-content: center;
     gap: 20px;
+    background-color: red;
+    padding-top:35px;
+    padding-bottom: 35px;
+    margin-left: 400px;
+    margin-right: 400px;
+    
 }
 
 .map-image img {
-    max-width: 100%;
+    width: 400px;
     height: auto;
+    
 }
 
 .commitment-section {
-    background-color: red;
-    color: white;
+    text-decoration: solid;
+    background-color: #f2f2f2;
+    color: rgb(12, 12, 12);
     text-align: center;
     padding: 20px;
 }
