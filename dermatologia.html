@@ -4,16 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Clinica,especialidades,piel">
-    <link rel="stylesheet" href="especialidades.css">
+    <link rel="stylesheet" href="./css/especialidades.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <title>Dermatología</title>
+    <!--Iconos-->
+    <link rel="shorcout icon" href="imgs/img-Icons/logo.png">
 </head>
 <body>
     <!--aqui va el header la navegacion y logo-->
+    <header>
+        <div class="header-container">
+            <div class="img_logo">
+                <img src="./imgs/img-Icons/logo.png" alt="Clínica Monte Carlos" class="logo">
+                <h3>Clinica <br> MonteCarlos </h3>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Nosotros</a>
+                        <ul class="submenu">
+                            <li><a href="#">Quiénes somos</a></li>
+                            <li><a href="#">Misión y visión</a></li>
+                            <li><a href="#">Historia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Especialidades</a>
+                        <ul class="submenu">
+                            <li><a href="#">Cardiología</a></li>
+                            <li><a href="#">Dermatología</a></li>
+                            <li><a href="#">Pediatría</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Servicios</a>
+                        <ul class="submenu">
+                            <li><a href="#">Centro de Emergencias</a></li>
+                            <li><a href="#">Centro de alta </a></li>
+                            <li><a href="#">Fisioterapia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Ubícanos</a></li>
+                    <li><a href="#">Staff Médico</a>
+                        <ul class="submenu">
+                            <li><a href="#">Médicos generales</a></li>
+                            <li><a href="#">Especialistas</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-contact">
+                <a href="#">Resultado</a>
+                <div class="contact-info">
+                    <p><img src="" alt=""> (01) 615 0512</p>
+                    <p>999 965 999</p>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <h1>DERMATOLOGÍA</h1>
+    <!--aqui va la informacion de la especialidad-->
     <div id="contenedor">
         <div id="col1">
             <p id="intro">La dermatología es aquella especialidad médica que se enfoca en el diagnóstico y tratamiento de enfermedades y condiciones que afectan la piel, el cabello, las uñas.<br>
@@ -22,7 +72,7 @@
             <a><button id="btn_cita" type="button">RESERVAR CITA</button></a>
         </div>
         
-        <img id="img_especialidad" src="img/dermatologia.png" alt="dermatologia">
+        <img id="img_especialidad" src="./imgs/img-Especialidades/dermatologia.png" alt="dermatologia">
     </div>
     
     <hr>
@@ -31,7 +81,7 @@
         <div id="parte1">
             <h2 id="subtit">¿Cuando acudir a un <strong id="textred">DERMATÓLOGO</strong>?</h2>
             <p  id="infopart1">Recuerda que la prevención y la detección temprana son clave para mantener una piel saludable, por lo que es importante programar visitas regulares con un dermatólogo, especialmente si tienes preocupaciones específicas sobre tu piel o si tienes antecedentes familiares de enfermedades cutáneas.</p>
-        </div>
+        </div> 
         <div id="parte2">
             <h3><img src="img/check.png" width="15px"> Problemas de piel persistentes.</h3>
             <h3><img src="img/check.png" width="15px"> Cambio en lunares o manchas en la piel.</h3>
@@ -42,7 +92,7 @@
     <!--aqui termina la informacion corta sobre que es, de aui empieza la imagen del doctor y un text breve-->
     <div id="contenedor_perfil">
         <div id="perfil">
-            <img id="img_perfil" src="img/doc dermatologia.png">
+            <img id="img_perfil" src="./imgs/img-Especialidades/doc dermatologia.png">
             <h4 id="namedoc"><b>Dra. Dina Boluarte Diaz</b></h4>
         </div>
         <div id="infoperfil">
@@ -70,18 +120,18 @@
         <div id="pie2">
             <div>
                 <h5 id="pie2titulo">Contáctanos</h5> 
-                <p><img src="img/logo ubicacion.png" width="10px" alt="#"> Av. Virrey Conde de Lemos 755</p>
-                <p><img src="img/logo telefono.png" width="10px" alt="#"> (01) 619 051</p>
-                <p><img src="img/logo whatsap.png" width="14px" alt="#"> 926 966 161</p>
-                <p><img src="img/logo email.png" width="10px" alt="#"> gabiporrasore@gmail.com</p>
+                <p><img src="./imgs/img-Icons/logo ubicacion.png" width="10px" alt="#"> Av. Virrey Conde de Lemos 755</p>
+                <p><img src="./imgs/img-Icons/logo telefono.png" width="10px" alt="#"> (01) 619 051</p>
+                <p><img src="./imgs/img-Icons/logo whatsap.png" width="14px" alt="#"> 926 966 161</p>
+                <p><img src="./imgs/img-Icons/logo email.png" width="10px" alt="#"> gabiporrasore@gmail.com</p>
             </div>
             <div id="pie2bajo">
                 <p>Síguenos en :</p>
-                <a href="#"><img src="img/facebook.png" width="30px"></a>
-                <a href="#"><img src="img/instagram.png" width="30px"></a>
-                <a href="#"><img src="img/tiktok.png" width="30px"></a>
-                <a href="#"><img src="img/linkedin.png" width="30px"></a>
-                <a href="#"><img src="img/youtube.png" width="30px" ></a>
+                <a href="#"><img src="./imgs/img-Icons/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="./imgs/img-Icons/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="./imgs/img-Icons/tiktok.png" alt="TikTok"></a>
+                <a href="#"><img src="./imgs/img-Icons/linkedin.png" alt="LinkedIn"></a>
+                <a href="#"><img src="./imgs/img-Icons/youtube.png" alt="YouTube"></a>
             </div>
         </div>
         <!--columna 3-->
