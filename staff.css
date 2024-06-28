@@ -1,0 +1,37 @@
+body,html{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: source sans-serif;
+    
+    justify-content: space-between
+}
+
+
+
+
+.cards{
+    display: flex;
+}
+
+
+.card{
+    margin: 10px;
+    border: 5px solid grey;
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card.content{
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: justify;
+
+}
+
+.card .footer{
+    background-color: aliceblue;
+    padding: 10px;
+}
