@@ -3,16 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clínica MonteCarlos</title>
-    <link href="./css/staff.css" rel="stylesheet" >
+    <title>Staff - Clínica MonteCarlos</title>
+    <!--Iconos-->
+    <link rel="shorcout icon" href="imgs/img-Icons/logo.png">
+
+    <!--Estilos-->
+    <link href="./css/styles-Staff.css" rel="stylesheet" >
+
 </head>
 <body>
-    
-        <div class="cards" >
+    <header>
+        <div class="header-container">
+            <div class="img_logo">
+                <a href="index.html" ><img src="imgs/imgs-Homepage/logo clinica.png" alt="Clínica Monte Carlos" class="logo"></a> 
+                <h3>Clinica <br> MonteCarlos </h3>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="nosotros.html">Nosotros</a>
+                        <ul class="submenu">
+                            <li><a href="#">Quiénes somos</a></li>
+                            <li><a href="#">Acreditación</a></li>
+                            <li><a href="#">Testimonios</a></li>
+                            <li><a href="#">Novedades</a></li>
+                        </ul>
+                    </li>
+                    <!--FALTA AÑADIR LOS LINKS DE ESPECIALIDADES-->
+                    <li><a href="staff.html">Especialidades</a>
+                        <ul class="submenu">
+                            <!--AQUI FALTA COLOCAR LA UBICACION O  NOMBRE DE LAS ESPECIALIDADES "HIPERVINCULO"-->
+                            <li><a href="cardiologia.html">Cardiología</a></li>
+                            <li><a href="dermatologia.html">Dermatología</a></li>
+                            <li><a href="medicina interna.html">Medicina Interna</a></li>
+                            <li><a href="neumologia.html">Neumología</a></li>
+                            <li><a href="neurologia.html">Neurología</a></li>
+                            <li><a href="odontologia.html">Odontología</a></li>
+                            <li><a href="oftalmologia.html">Oftalmología</a></li>
+                            <li><a href="otorrinolaringologia.html">Otorrinolaringología</a></li>
+                            <li><a href="pediatria.html">Pediatría</a></li>
+                            <li><a href="traumatologia.html">Traumatología</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="servicios.html">Servicios</a>
+                        <ul class="submenu">
+                            <li><a href="#">Centro de Emergencias</a></li>
+                            <li><a href="#">Centro de alta especialización </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Ubicanos.html">Ubícanos</a></li>
+                    <li><a href="staff.html">Staff Médico</a>
+                        <ul class="submenu">
+                            <li><a href="#">Médicos generales</a></li>
+                            <li><a href="#">Especialistas</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-contact">
+                <!--FALTA AÑADIR EL LINK DE RESULTADO-->
+                <a href="login.html">Resultado</a>
+                <div class="contact-info">
+                    <p><img src="imgs/imgs-Homepage/logo telf_nav.png" alt="telefono icono" style="width: 20px;"> (01) 615 0512</p>
+                    <p><img src="imgs/imgs-Homepage/logo what_nav.png" alt="whatsap icono" style="width: 20px;"> 999 965 999</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="staff-medico">
+            <h2>Staff Médico</h2>
+            <p>Profesionales para cuidarte a ti y a tu familia.</p>
+            <button class="boton-cita">Agenda tu cita</button>
+            <div class="imagen-staff">
+            <img src="./imgs/img-Staff/Staff0.jpeg" alt="Staff Médico">
+        </section>
+    </main> 
+    <hr>
+    <section class="cards" >
 
             <div class="card">
                 <div class="content">
-                    <img src="doc4444.jpg"  >
+                    <img src="imgs/img-Staff/Dra. Mariel Loayza.png" width="120px">
                 </div>
                 <div class="footer">
                     <p> Médico Ginecólogo <br/> <strong>Dra. Mariel Loayza</strong> <br/> CMP: 076797</p> 
@@ -21,7 +92,7 @@
 
             <div class="card">
                 <div class="content">
-                    <img src="doc11.jpg"  >
+                    <img src="imgs/img-Staff/Dr. Javier Tsukazan.webp" width="120px">
                 </div>
                 <div class="footer">
                     <p> Médico Oftalmólogo <br/> <strong>Dr. Javier Tsukazan</strong> <br/> CMP: 021626</p> 
@@ -30,31 +101,29 @@
 
             <div class="card">
                 <div class="content">
-                    <img src="doc5555.jpg"  >
+                    <img src="imgs/img-Staff/Dra. Guileida Lugo.webp" width="120px">
                 </div>
                 <div class="footer">
-                    <p> Médico Iterino <br/> <strong>Dra. Guileida Lugo </strong> <br/> CMP: 088582</p> 
+                    <p> Médico Interino <br/> <strong>Dra. Guileida Lugo </strong> <br/> CMP: 088582</p> 
                 </div>
             </div>
 
             <div class="card">
                 <div class="content">
-                    <img src="doc12.jpg"  >
+                    <img src="imgs/img-Staff/Dr. Carlos Falcón.webp" width="120px">
                 </div>
                 <div class="footer">
                     <p> Médico Neumólogo<br/> <strong>Dr. Carlos Falcón</strong> <br/> CMP: 059969</p> 
                 </div>
             </div>
 
-        </div>
-    
+    </section>
 
-    
-        <div class="cards" >
+    <section class="cards" >
 
             <div class="card">
                 <div class="content">
-                    <img src="doc13.jpg"  >
+                    <img src="imgs/img-Staff/Dr. Mario Espinoza.png" width="120px">
                 </div>
                 <div class="footer">
                     <p> Médico Traumatólogo <br/> <strong>Dr. Mario Espinoza</strong> <br/> CMP: 058797</p> 
@@ -63,7 +132,7 @@
         
             <div class="card">
                 <div class="content">
-                    <img src="doc33.jpg"  >
+                    <img src="imgs/img-Staff/Dr. Aldo Balta.png" width="120px">
                 </div>
                 <div class="footer">
                     <p> Médico Otorrinolaringólogo <br/> <strong>Dr. Aldo Balta</strong> <br/> CMP: 025786</p> 
@@ -72,7 +141,7 @@
 
             <div class="card">
                 <div class="content">
-                    <img src="doc111.jpg"  >
+                    <img src="imgs/img-Staff/Dr. Adolfo Santaolalla.webp" width="120px">                
                 </div>
                 <div class="footer">
                     <p> Médico Pediátrico <br/> <strong>Dr. Adolfo Santaolalla </strong> <br/> CMP: 086252</p> 
@@ -81,20 +150,20 @@
 
             <div class="card">
                 <div class="content">
-                    <img src="doc222.jpg"  >
+                    <img src="imgs/img-Staff/Dr. Steven Malpartida.png" width="120px">                
                 </div>
                 <div class="footer">
                     <p> Médico Pediátrico <br/> <strong>Dr. Steven Malpartida</strong> <br/> CMP: 05439</p> 
                 </div>
             </div>
 
-        </div>
+    </section>
 
-        <div class="cards" >
+    <section class="cards" >
 
             <div class="card">
                 <div class="content">
-                    <img src="docc888.jpg"  >
+                    <img src="imgs/img-Staff/Dra. Melissa Grande.png" width="120px">
                 </div>
                 <div class="footer">
                     <p> Médico Odontólogo <br/> <strong>Dra. Melissa Grande</strong> <br/> CMP: 098567</p> 
@@ -103,16 +172,16 @@
         
             <div class="card">
                 <div class="content">
-                    <img src="docc777.jpg"  >
+                    <img src="imgs/img-Staff/IMG-20230909-WA0010.jpg" width="120px">
                 </div>
                 <div class="footer">
-                    <p> Médico Dermatólogo <br/> <strong>Dr. Alberto Armas</strong> <br/> CMP: 658786</p> 
+                    <p> Médico Dermatólogo <br/> <strong>Dr. José Montero</strong> <br/> CMP: 658786</p> 
                 </div>
             </div>
 
             <div class="card">
                 <div class="content">
-                    <img src="docc666.jpg"  >
+                    <img src="imgs/img-Staff/Dra. Elith Demoran.png" width="120px">
                 </div>
                 <div class="footer">
                     <p> Médico Cardiólogo <br/> <strong>Dra. Elith Demoran </strong> <br/> CMP: 086258</p> 
@@ -121,15 +190,71 @@
 
             <div class="card">
                 <div class="content">
-                    <img src="docc99.jpg"  >
+                    <img src="imgs/img-Staff/Dr. Renato De la Fuente.png" width="120px">
                 </div>
                 <div class="footer">
                     <p> Médico Neurólogo <br/> <strong>Dr. Renato De la Fuente</strong> <br/> CMP: 598779</p> 
                 </div>
             </div>
 
+    </section>
+     
+    <hr>
+    <footer id="piepag">
+        <div id="pie1">
+            <h4 id="pietitulo">Clinica<br>Monte Carlos</h4>
+            <p id="piep">En Clínica Monte Carlos, reconocemos la vital importancia de la confianza y la tranquilidad en la interacción entre médico y paciente. Por ello, dedicamos nuestros esfuerzos a instaurar un entorno profesional, amable y confortable, asegurando que cada paciente se sienta atendido y protegido en todo momento.</p>
+            <div id="pielink">
+                <p>Derechos y deberes</p>
+                <p>Políticas de Privacidad</p>
+                <p>Libro de Reclamaciones</p>
+            </div>
         </div>
-
-
+        <!--columna 2-->
+        <div id="pie2">
+            <div>
+                <h5 id="pie2titulo">Contáctanos</h5> 
+                <p><img src="imgs/imgs-Homepage/logo ubicacion.png" style="width: 14px;" alt="#"> Av. Virrey Conde de Lemos 755</p>
+                <p><img src="imgs/imgs-Homepage/logo telefono.png" style="width: 14px;" alt="#"> (01) 619 051</p>
+                <p><img src="imgs/imgs-Homepage/logo whatsap.png" style="width: 14px;" alt="#"> 926 966 161</p>
+                <p><img src="imgs/imgs-Homepage/logo email.png" style="width: 14px;" alt="#"> gabiporrasore@gmail.com</p>
+            </div>
+            <div id="pie2bajo">
+                <p>Síguenos en :</p>
+                <a href="#"><img src="imgs/imgs-Homepage/facebook.png"></a>
+                <a href="#"><img src="imgs/imgs-Homepage/instagram.png"></a>
+                <a href="#"><img src="imgs/imgs-Homepage/tiktok.png"></a>
+                <a href="#"><img src="imgs/imgs-Homepage/linkedin.png"></a>
+                <a href="#"><img src="imgs/imgs-Homepage/youtube.png" ></a>
+            </div>
+        </div>
+        <!--columna 3-->
+        <div id="pie3">
+            <h4>Reserva tu cita</h4>
+            <form id="inpform">
+                <input type="text" id="name" required placeholder="Nombre"><br>
+                <input type="text" id="lastname" required placeholder="Apellido"><br>
+                <input type="number" id="number" required placeholder="Celular"><br>
+                <input type="email" id="mail" required placeholder="Email"><br>
+                <input type="number" id="dni" required placeholder="DNI"><br>
+                <label>Seleccione su Especialidad:</label><br>
+                <select required>
+                    <option>Cardiología</option>
+                    <option>Neumología</option>
+                    <option>Traumatología</option>
+                    <option>Oftalmología</option>
+                    <option>Medicina Interna</option>
+                    <option>Dermatología</option>
+                    <option>Odontología</option>
+                    <option>Otorrinolaringología</option>
+                    <option>Pediatría</option>
+                    <option>Neurologia</option>
+                    <option>Cardiología</option>
+                    <option>Medicina Interna</option>
+                </select><br>
+                <button>ENVIAR</button>
+            </form>
+        </div>
+    </footer>
 </body>
 </html>

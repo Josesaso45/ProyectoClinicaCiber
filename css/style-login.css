@@ -3,7 +3,7 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: #F7F6F6;
-    color: black;
+    
 }
 .header-container {
     display: flex;
@@ -57,23 +57,11 @@ nav ul li:hover {
 nav ul li:hover > .submenu {
     display: block;
 }
-.header-contact {
+.header-contact{
     display: flex;
-    text-align: left;
+    text-align: center;
     align-items: center;
-    gap: 10px;
-}
-.header-contact button {
-    text-decoration: none;
-    background-color: #444444;
-    color: #FFFFFF;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    height: 50px;
-    height: auto;
-    cursor: pointer;
-
+    gap: 20px;
 }
 
 .img_logo {
@@ -86,75 +74,55 @@ nav ul li:hover > .submenu {
     float: right;
     margin-left: 6px;
 }
-
-                                        /*aqui termina el encabezado*/
-
-.contenedor_gen_1{
-    display: flex;
-    margin: 20px 0px;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-}
-.cont1_col1{
-    width: 400px;
-    font-family: "Helvetica";
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.3;
-    text-align: justify;
-}
-.cont1_col2 img{
-    width: 385px;
-    height: 186px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background: #00000000;
-    border-radius: 20px 20px 20px 20px;
-    text-align: right;
-}
-                                            /*empieza parte 2*/
-.contenedor_gen_2{
-    margin: 20px 0px;
-    background: #B70F0A;
-    border-color: #FFFFFF00;
-    border-width: 1px;
-    border-style: solid;
+                                                    /*body cuerpo de pagina*/
+.login_general{
     display: flex;
     text-align: center;
+    align-items: center;
     justify-content: center;
-    gap: 130px;
-    color: #FFFFFF;
-    font-family: "Helvetica";
-    font-size: 20px;
+    padding: 50px 0px;
 }
-                                            /*empieza parte 3*/
-.contenedor_gen_3{
-    display: flex;
-    align-content: center;
-    justify-content: center;
+.login h1{
+    margin-bottom: 50px;
+    color: #2E1572;
+    font-family: "Source Sans 3";
+    font-weight: bold;
+    font-size: 36px;
+    text-decoration: underline;
+}
+.login input{
+    display: block;
+    width: 302px;
+    height: 43px;
+    padding: 4px 8px 4px 8px;
+    background: #FFFFFF;
+    color: #C0C0C0;
+    border-color: #232323;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 14px;
     text-align: left;
-    font-family: "Helvetica";
-    padding: 20px 0px;
-    gap: 50px;
+}
+.login button{
+    text-decoration: none;
+    background-color: #444444;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 120px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
 
+.login_img{
+    text-align: right;
+    width: 500px;
 }
-.cont3_col1 ul{
-    font-size: 14px;
-    line-height: 1.3;
-}
-.cont3_col3 p{
-    width: 400px;
-    font-size: 14px;
-    line-height: 1.3;
-}
-.cont3_col2 img{
-    width: 80px;
-}
-.cont3_col2{
-    margin-right: 100px;
-    align-content: center;
-}
-                                            /*pie de pagina*/
+
 /*pie de pagina*/
 
 #piepag{
