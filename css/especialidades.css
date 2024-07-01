@@ -1,7 +1,11 @@
-body{
+body {
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
     background-color: #F7F6F6;
+    
 }
-/*--Inicio Header -- */
+/*INICIO - Header*/
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -76,7 +80,20 @@ nav ul li:hover > .submenu {
 .img_logo {
     text-align: center;
 }
-/*--Fin Header -- */
+
+.logo{
+    width: 120px;
+}
+.img_logo h3 {
+    float: right;
+    margin-left: 5px;
+}
+
+.img_logo img {
+    height: 80px;
+}
+/*FIN - Header*/
+
 h1{
     color: #2E1572;
     text-align: center;

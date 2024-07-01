@@ -5,7 +5,7 @@ body {
     box-sizing: border-box;
 }
 
-/*--Inicio Header -- */
+/*INICIO - Header*/
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -80,7 +80,19 @@ nav ul li:hover > .submenu {
 .img_logo {
     text-align: center;
 }
-/*--Fin Header -- */
+
+.logo{
+    width: 120px;
+}
+.img_logo h3 {
+    float: right;
+    margin-left: 5px;
+}
+
+.img_logo img {
+    height: 80px;
+}
+/*FIN - Header*/
 
 /*--Inicio Main -- */
 .contact-info p {

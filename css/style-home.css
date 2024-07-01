@@ -5,6 +5,7 @@ body {
     background-color: #F7F6F6;
     
 }
+/*INICIO - Header*/
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -91,6 +92,7 @@ nav ul li:hover > .submenu {
 .img_logo img {
     height: 80px;
 }
+/*FIN - Header*/
 
 /*pie de pagina*/
 
