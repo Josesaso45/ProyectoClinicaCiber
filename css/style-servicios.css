@@ -1,27 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-}
-
-body {
-    font-family: "Poppins", sans-serif;
-}
-/*--Inicio Header -- */
+/*inicio de encabezado*/
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #FDF0CE;              /*aqui se modifica el color de fondo de la navegacion el header*/
     padding: 10px 20px;
+    height: 80px;
 }
 
-.logo {
-    height: 50px;
+.logo{
+    width:  80px;
 }
 
 nav ul {
@@ -63,13 +53,37 @@ nav ul li:hover {
 nav ul li:hover > .submenu {
     display: block;
 }
-
 .header-contact {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    text-align: left;
+    align-items: center;
+    gap: 10px;
+}
+.header-contact button {
+    text-decoration: none;
+    background-color: #444444;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+    height: auto;
+    cursor: pointer;
+
 }
 
+.img_logo {
+    text-align: left;
+    margin-top: 20px;
+    justify-items: center;
+}
+
+.img_logo h3 {
+    float: right;
+    margin-left: 6px;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+}
 .header-contact a {
     text-decoration: none;
     background-color: #444444;
@@ -79,75 +93,115 @@ nav ul li:hover > .submenu {
     margin-bottom: 5px;
 }
 
-.contact-info p {
+                                        /*fin de encabezado y inicio de body*/
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.img_logo {
-    text-align: center;
-}
-/*--Fin Header -- */
-
-
-.menu .navbar ul li {
-    position: relative;
-    float:left;
+body {
+    font-family: "Poppins", sans-serif;
 }
 
-.menu .navbar ul li a {
-    font-size: 18px;
+.container {
+    margin: 0 auto;
     padding: 20px;
-    color: gray;
-    display: block;
-    font-weight: 600;
 }
 
-.menu-icono {
-    width: 70px;
+.texto {
+    background-color: rgb(196, 13, 13);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-.header content{
-    text-align: center;
-}
-
-.texto{
-    background-color: #aa1010;
-    color: #ebdfdf;
-
-}
-
-.especialidades{
-    background-color: #aa1010;
-    color: #ebdfdf;
-    left: 0;
-    right: 0;
+.general {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
+.general-1 {
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+}
 
-.bnt-1{
+.general-2, .general-3, .general-4, .general-5 {
+    width: 50%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.general-2 {
+    background-image: url(../imgs/img-servicios/ambulancia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.general-3 {
+    background-image: url(../imgs/img-servicios/medico.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.general-4 {
+    background-image: url(../imgs/img-servicios/banco.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.general-5 {
+    background-image: url(../imgs/img-servicios/fisica.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.especialidades {
+    background-color: rgb(196, 13, 13);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.especialidades h3 {
+    text-align: center;
+    padding: 10px;
+    justify-content:space-between;
+}
+
+.btn-1 {
     display: inline-block;
     padding: 11px 35px;
     text-transform: uppercase;
-    background-color: rgb(143, 42, 42);
-    color:white;
-
+    background-color: rgb(196, 13, 13);
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
 }
 
-.service{
-    max-width: 1200px;
-    margin: 0 auto;
+p {
+    font-size: 16px;
+    margin: 15px 0;
 }
 
+/*termina body y empieza el pie de pagina*/
+
+/*INICIO - pie de pagina*/
 #piepag{
     background-color: #2E1572;
     color: white;
     display: flex;
     padding: 0px;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 20px;
+    padding-top: 20px ;
 }
 
 #pietitulo{
@@ -219,3 +273,4 @@ nav ul li:hover > .submenu {
     text-align: left;
     margin-right: 50px;
 }
+/*FIN- pie de pagina*/

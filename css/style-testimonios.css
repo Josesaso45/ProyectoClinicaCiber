@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: url('../imgs/img-testimonios/doctor_con_paciente.jpeg') no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FDF0CE;              /*aqui se modifica el color de fondo de la navegacion el header*/
+    padding: 10px 20px;
+    height: 60px;
+}
+
+.logo{
+    width:  80px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #FDF0CE;              /*aqui se modifica el color de seleccion*/
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: white;                        /*aqui se modifica el color de sub menus*/ 
+    border-top: 3px solid #2E1572;                  /*color de line que separa el menu de sub menu*/
+    z-index: 1000;
+    margin-top: 0;
+    min-width: 200px;
+}
+
+.submenu li {
+    margin-bottom: 0;
+}
+
+nav ul li:hover > .submenu {
+    display: block;
+}
+.header-contact{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.img_logo {
+    text-align: left;
+    margin-top: 20px;
+    justify-items: center;
+}
+
+.img_logo h3 {
+    float: right;
+    margin-left: 6px;
+}
+.header-contact a {
+    text-decoration: none;
+    background-color: #444444;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+                        /*termina header nav de menus y sub menus y empieza el cuerpo body*/
+
+
+body ::after {
+    content: '';
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo con opacidad */
+    z-index: -1; /* Asegura que esté detrás de todo */
+    opacity: 0.7;
+}
+.cont_test{
+    padding: 0px 250px ;
+}
+
+.title{
+    background: linear-gradient(90deg, rgb(183, 15, 10) 0%, rgb(46, 21, 114) 100%);
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin: 50px 0px 140px;
+    height: 80px;
+}        
+.title h1{
+    font-family: "Source Sans 3";
+    font-size: 48px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+    margin: 0px;
+}      
+.test1, .test2, .test3{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: "Source Sans 3";
+    background-color: white;
+    opacity: 95%;
+} 
+                                                        /*CONTENEDOR N°1*/
+.test1{
+    border: rgb(46, 21, 114) 5px solid;
+    border-radius: 60px;
+    border-style: groove;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
+
+}
+.test1 h4{
+    margin-bottom: -20px;
+    font-size: 20px;
+}
+.test1 p, .test3 p{
+    text-align: justify;
+    padding-right: 100px;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+}
+.test1 img{
+    height: 300px;
+    border-radius: 20% 0% 0% 50%;                   /*borde a una imagen, cada imagen tiene borde distinto*/
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Añade una sombra a la imagen */
+
+}
+                                                    /*CONTENEDOR N°2*/
+.test2{
+    border: #B70F0A 5px solid;
+    border-radius: 60px;
+    border-style: groove;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
+}
+.test2 img{
+    height: 300px;
+    border-radius: 30% 20% 50% 0%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Añade una sombra a la imagen */
+}
+.test2 p{
+    text-align: justify;
+    padding-left: 100px;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+}
+.test2 h6{
+    text-align: right;
+}
+.test2 h4{
+    margin-bottom: -20px;
+    font-size: 20px;
+    text-align: right;
+}
+                                                    /*CONTENEDOR N°3*/
+.test3{                                         
+    border: rgb(46, 21, 114) 5px solid;
+    border-radius: 60px;
+    border-style: groove;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
+}
+.test3 img{
+    height: 300px;
+    border-radius: 20% 0% 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Añade una sombra a la imagen */
+}
+.test3 h4{
+    margin-bottom: -20px;
+    font-size: 20px;
+}
