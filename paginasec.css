@@ -1,0 +1,343 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/*INICIO - Header*/
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FDF0CE;              /*aqui se modifica el color de fondo de la navegacion el header*/
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #FDF0CE;              /*aqui se modifica el color de seleccion*/
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: white;                        /*aqui se modifica el color de sub menus*/ 
+    border-top: 3px solid #2E1572;                  /*color de line que separa el menu de sub menu*/
+    z-index: 1000;
+    margin-top: 0;
+    min-width: 200px;
+}
+
+.submenu li {
+    margin-bottom: 0;
+}
+
+nav ul li:hover > .submenu {
+    display: block;
+}
+
+.header-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header-contact a {
+    text-decoration: none;
+    background-color: #444444;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.img_logo {
+    text-align: center;
+}
+
+.logo{
+    width: 120px;
+}
+.img_logo h3 {
+    float: right;
+    margin-left: 5px;
+}
+
+.img_logo img {
+    height: 80px;
+}
+/*FIN - Header*/
+
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #ebb991;
+    color: white;
+    padding: 20px;
+    position: relative ;
+    /*height: 100%;*/
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin-left: 270px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h2 {
+    color: #ebb991;
+}
+
+h3 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #ebb991;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, select, textarea, button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ebb991;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ebb991;
+}
+
+.payment-status, .payment-options {
+    margin-bottom: 30px;
+}
+
+.payment-status h3, .payment-options h3 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.payment-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ebb991;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.payment-link:hover {
+    background-color: #ebb991;
+}
+
+.faq, .contact-info {
+    margin-bottom: 30px;
+}
+
+.faq h3, .contact-info h3 {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info ul li strong {
+    display: inline-block;
+    width: 120px; /* Ajusta el ancho según sea necesario */
+}
+
+
+
+/*pie de pagina*/
+
+#piepag{
+    background-color: #2E1572;
+    color: white;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#pietitulo{
+	font-family: "Source Sans 3", sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 1.28;
+	text-align: center;
+    margin-bottom: 1px;
+}
+#piep{
+    width: 300px;
+    height: 99px;
+    color: #FFFFFF;
+    font-family: "Helvetica", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+#pielink{
+    line-height: 1.5;
+}
+#pie2{
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+#pie2titulo{
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+#pie2 p{
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: left;
+}
+#pie2bajo{
+    margin-top: 30px;
+}
+#pie2bajo img{
+    width: 35px;
+
+}
+#pie3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pie3 h4{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+#inpform input{
+    width: 180px;
+    height: 20px;
+    border-radius: 14px;
+    border-style: solid;
+    padding: 4px 8px 4px 8px;
+    border-color: #232323;
+    border-width: 1px;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+#inpform select{
+    margin-bottom: 5px;
+    text-align: left;
+    margin-right: 50px;
+}
