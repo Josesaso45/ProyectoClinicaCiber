@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
 body {
-    font-family: Arial, sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -94,7 +96,7 @@ nav ul li:hover > .submenu {
     padding-left: 40px;
 }        
 .title h1{
-    font-family: "Source Sans 3";
+    /*font-family: "Source Sans 3";*/
     font-size: 48px;
     margin: 0px;
 }      

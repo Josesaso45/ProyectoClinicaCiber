@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 body {
-    font-family: Arial, sans-serif;
     padding: 0px;
     margin: 0px;
     background-color: #F7F6F6;
@@ -16,46 +17,6 @@ body {
 
 .logo {
     height: 50px;
-}
-
-nav ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-nav ul li {
-    position: relative;
-    display: inline-block;
-}
-
-nav ul li a {
-    display: block;
-    padding: 15px 20px;
-    color: #000000;
-    text-decoration: none;
-}
-
-nav ul li:hover {
-    background-color: #FDF0CE;              /*aqui se modifica el color de seleccion*/
-}
-
-.submenu {
-    display: none;
-    position: absolute;
-    background-color: white;                        /*aqui se modifica el color de sub menus*/ 
-    border-top: 3px solid #2E1572;                  /*color de line que separa el menu de sub menu*/
-    z-index: 1000;
-    margin-top: 0;
-    min-width: 200px;
-}
-
-.submenu li {
-    margin-bottom: 0;
-}
-
-nav ul li:hover > .submenu {
-    display: block;
 }
 
 .header-contact {
@@ -638,7 +599,6 @@ nav ul li:hover > .submenu {
 .testimonios_6 h6{
     width: 127px;
     height: 21px;
-    font-family: "Source Sans Pro";
     font-weight: 400;
     font-size: 16px;
     line-height: 1.3;
